@@ -1,0 +1,53 @@
+.slider {
+	position relative
+	width 300px
+	height 200px
+}
+
+#slide {
+  width 300px
+  left 0
+  bottom 0
+}
+
+.slider__prewbutton,
+.slider__nextbutton {
+  z-index 99999
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  z-index 999
+
+  display: block;
+  width: 23px;
+  height: 22px;
+
+  text-indent: -9999px;
+
+  background: url("../../img/prev_slide.svg");
+  background-repeat: no-repeat;
+  opacity: 0.15;
+  
+  &:hover {
+  	opacity: 0.3;
+  }
+  
+	&:active,
+	&focus {
+		opacity: 0.5;
+	}
+}
+
+.slider__prewbutton {
+  left: 222px;
+}
+
+.slider__nextbutton {
+  left 258px
+  transform: rotate(180deg)
+  cursor pointer
+}
+
+.slider__links {
+	display: none;
+}

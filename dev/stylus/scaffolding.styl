@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "NewBaskervilleC";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../font/ProximaNova-Semibold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../font/PTSans.ttf") format("ttf");
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+
+  font-family: "NewBaskervilleC", "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #eff2f7
+  font-style: normal;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+  // outline: 1px dashed red;
+}
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

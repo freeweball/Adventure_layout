@@ -1,0 +1,43 @@
+.popup__wrapper {
+	position fixed
+	z-index 1
+	top 0
+	left 0
+	width 100vw
+	height 100vh
+	background-color #141a1f
+	opacity 0.9
+}
+
+.popup__modal {
+	position fixed
+	z-index 2
+	top 245px
+	height 480px
+}
+
+.popup__modal--zoom {
+	left 50%
+	margin-left -320px
+	width 640px
+	background-image url("../../img/zoom.jpg")
+}
+
+.popup__modal--video {
+	left 50%
+	margin-left -370px
+	width 740px
+	background-image url("../../img/video.jpg")
+}
+
+.popup__close {
+	position absolute
+	top -34px
+	right -35px
+	width 28px
+	height 28px
+	background-color transparent
+	border none
+	background-image url("../../img/close.png")
+	cursor pointer
+}

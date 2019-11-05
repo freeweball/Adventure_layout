@@ -1,0 +1,79 @@
+.footer-main {
+		clear both;
+		background-color: #282a2d;
+		padding-bottom: 17px;
+	@media (min-width: 768px) {
+		padding-left: 22px;
+	}
+}
+
+.footer-main__wrapper {
+	width 250px
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto;
+	
+	@media (min-width: 768px) {
+		width: 620px;
+	}
+	
+	@media (min-width: 1300px) {
+		width: 1280px;
+	}
+}
+
+.footer-main__copywrite-date {
+	// width: 300px;
+	margin-top: 22px;
+
+	color: #6b7076;
+	font-size: 16px;
+	line-height: 17px;
+	font-weight: 400;
+}
+
+.footer-main__copywrite-wrapper {
+	position: relative;
+	
+	margin-top: 18px;
+	padding-right: 64px;
+
+	text-align: right;
+
+		&:after {
+			content: "";
+
+			position: absolute;
+			top: -6px;
+			right: 19px;
+
+			width: 30px;
+			height: 33px;
+
+			background-image: url("../../img/copywrite_logo.png");
+			background-repeat: no-repeat;
+		};
+}
+
+.footer-main__copywrite-text {
+	display: inline-block;
+	margin-right: 5px;
+
+	font-family: "PT Sans", "Arial", sans-serif;
+	color: #6b7076;
+	font-size: 14px;
+	line-height: 17px;
+	font-weight: 400;
+}
+
+.footer-main__copywrite {
+	display: inline-block;
+
+	font-family: "PT Sans", "Arial", sans-serif;
+	color: #b5b9be;
+	font-size: 14px;
+	line-height: 17px;
+	font-weight: 400;
+}
